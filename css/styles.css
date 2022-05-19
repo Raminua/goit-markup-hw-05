@@ -497,6 +497,108 @@ h3 {
     color: var(--accent-color);
 }
 
+.footer-link {
+    display: flex;
+    margin: 0;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+
+}
+
+.footer-link-list:not(:first-child) {
+    margin-left: 10px;
+}
+
+
+.social-button {
+    content: '';
+    width: 44px;
+    height: 44px;
+    display: flex;
+    /* background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.1);
+    background-position: center;
+    border-radius: 50%; */
+}
+
+.footer-social {
+    align-items: baseline;
+    margin-left: 70px;
+
+}
+
+.main-footer-cont {
+    display: flex;
+    align-items: baseline;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footer-social h3 {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    color: var(--white-color);
+    letter-spacing: 0.03em;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: left;
+    padding: 0;
+
+
+}
+
+.icon-inst {
+    content: '';
+    width: 44px;
+    height: 44px;
+    display: inline-flex;
+    background-image: url(../images/footernav/instagram\ 2.svg);
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.1);
+    background-position: center;
+    border-radius: 50%;
+}
+
+.icon-twit {
+    content: '';
+    width: 44px;
+    height: 44px;
+    display: inline-flex;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.1);
+    background-position: center;
+    background-image: url(../images/footernav/twitter\ 1.svg);
+    border-radius: 50%;
+
+}
+
+.icon-faceb {
+    content: '';
+    width: 44px;
+    height: 44px;
+    display: inline-flex;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.1);
+    background-position: center;
+    background-image: url(../images/footernav/facebook\ 1.svg);
+    border-radius: 50%;
+}
+
+.icon-linked {
+    content: '';
+    width: 44px;
+    height: 44px;
+    display: inline-flex;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.1);
+    background-position: center;
+    background-image: url(../images/footernav/linkedin\ 1.svg);
+    border-radius: 50%;
+}
 
 /* PORTFOLIO */
 /* визуално прячет заголовок */
