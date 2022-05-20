@@ -81,7 +81,6 @@ header {
 
 header .container {
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
 }
 
@@ -147,6 +146,32 @@ header .container {
 
 }
 
+.address-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.nav-mail {
+    fill: currentColor;
+    margin-right: 10px;
+
+}
+
+.nav-phone {
+    fill: currentColor;
+    margin-right: 10px;
+
+}
+
+.nav-phone:hover {
+    fill: var(--accent-color);
+}
+
+
 /* SOLUTIONS */
 .solutions-section {
     background-color: #2F303A;
@@ -162,7 +187,6 @@ header .container {
         url(../images/bgim.jpg);
     background-repeat: no-repeat;
 }
-
 
 .solution-text {
     font-weight: 900;
@@ -511,17 +535,6 @@ h3 {
 }
 
 
-.social-button {
-    content: '';
-    width: 44px;
-    height: 44px;
-    display: flex;
-    /* background-repeat: no-repeat;
-    background-color: rgba(255, 255, 255, 0.1);
-    background-position: center;
-    border-radius: 50%; */
-}
-
 .footer-social {
     align-items: baseline;
     margin-left: 70px;
@@ -551,53 +564,33 @@ h3 {
 
 }
 
-.icon-inst {
-    content: '';
+.footer-link-list {
+    margin: 0;
+    padding: 0;
     width: 44px;
     height: 44px;
-    display: inline-flex;
-    background-image: url(../images/footernav/instagram\ 2.svg);
-    background-repeat: no-repeat;
-    background-color: rgba(255, 255, 255, 0.1);
-    background-position: center;
-    border-radius: 50%;
 }
 
-.icon-twit {
-    content: '';
+.social-button {
+    display: flex;
+    background: rgba(255, 255, 255, 0.1);
     width: 44px;
     height: 44px;
-    display: inline-flex;
-    background-repeat: no-repeat;
-    background-color: rgba(255, 255, 255, 0.1);
-    background-position: center;
-    background-image: url(../images/footernav/twitter\ 1.svg);
+    padding: 0;
     border-radius: 50%;
-
+    border: none;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
 }
 
-.icon-faceb {
-    content: '';
-    width: 44px;
-    height: 44px;
-    display: inline-flex;
-    background-repeat: no-repeat;
-    background-color: rgba(255, 255, 255, 0.1);
-    background-position: center;
-    background-image: url(../images/footernav/facebook\ 1.svg);
-    border-radius: 50%;
+.svg-icon {
+    fill: currentColor;
 }
 
-.icon-linked {
-    content: '';
-    width: 44px;
-    height: 44px;
-    display: inline-flex;
-    background-repeat: no-repeat;
-    background-color: rgba(255, 255, 255, 0.1);
-    background-position: center;
-    background-image: url(../images/footernav/linkedin\ 1.svg);
-    border-radius: 50%;
+.social-button:hover,
+.social-button:focus {
+    background-color: var(--accent-color);
 }
 
 /* PORTFOLIO */
