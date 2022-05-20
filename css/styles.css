@@ -281,40 +281,17 @@ h3 {
     justify-content: space-between;
 }
 
-.icon-first::before {
-    background-image: url(../images/Group\ 11st.png);
-    content: '';
-    height: 120px;
-    display: inline-flex;
+.features-svg {
+    display: flex;
     width: 270px;
-    margin-bottom: 30px;
-}
-
-.icon-clock::before {
-    content: '';
     height: 120px;
-    display: inline-flex;
-    width: 270px;
-    background-image: url(../images/Group\ 2clock.png);
+    background-color: #F5F4FA;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 30px;
-}
-
-.icon-comp::before {
-    content: '';
-    height: 120px;
-    display: inline-flex;
-    width: 270px;
-    background-image: url(../images/Group\ 3comp.png);
-    margin-bottom: 30px;
-}
-
-.icon-cosm::before {
-    content: '';
-    height: 120px;
-    display: inline-flex;
-    width: 270px;
-    background-image: url(../images/Group\ 4cosmo.png);
-    margin-bottom: 30px;
+    /* border: 1px solid #000000; */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
 }
 
 .features-list h2 {
@@ -405,7 +382,7 @@ h3 {
     padding: 0;
 }
 
-.team-members li {
+.team-members .main-member-list {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -448,8 +425,97 @@ h3 {
 
 .name-pos {
     padding-top: 30px;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
 }
+
+.member-social {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    color: var(--primary-color);
+
+
+}
+
+.svg-member-icom {
+    fill: currentColor;
+
+}
+
+.social-button-member {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    border-radius: 50%;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+}
+
+.social-button-member:hover,
+.social-button-member:focus {
+    background-color: var(--accent-color);
+}
+
+.member-list {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+
+}
+
+.member-list-item {
+    padding: 0;
+
+}
+
+.member-list-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+/* Clients Section */
+.clients-sect {
+    display: flex;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.clients-sect h1 {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #212121;
+    text-align: center;
+}
+
+.clients-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+
+}
+
+.clients-svg {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+
+
+}
+
+
+
 
 /* FOOTER */
 .page-footer {
