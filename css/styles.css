@@ -154,6 +154,10 @@ header .container {
 
 }
 
+.address-list:hover,
+.address-list:focus {
+    color: var(--accent-color);
+}
 
 .nav-mail {
     fill: currentColor;
@@ -165,10 +169,6 @@ header .container {
     fill: currentColor;
     margin-right: 10px;
 
-}
-
-.nav-phone:hover {
-    fill: var(--accent-color);
 }
 
 
@@ -387,6 +387,7 @@ h3 {
         0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    background-color: var(--white-color);
 }
 
 .team-members h3 {
@@ -425,7 +426,6 @@ h3 {
 
 .name-pos {
     padding-top: 30px;
-    /* padding-bottom: 30px; */
 }
 
 .member-social {
@@ -438,8 +438,8 @@ h3 {
 
 }
 
-.svg-member-icom {
-    fill: currentColor;
+.svg-member-icon {
+    fill: #AFB1B8;
 
 }
 
@@ -452,12 +452,13 @@ h3 {
     border: none;
     align-items: center;
     justify-content: center;
-    color: var(--primary-color);
+    fill: var(--primary-color);
 }
 
 .social-button-member:hover,
 .social-button-member:focus {
     background-color: var(--accent-color);
+    fill: var(--white-color);
 }
 
 .member-list {
@@ -491,17 +492,15 @@ h3 {
     letter-spacing: 0.03em;
     color: #212121;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .clients-list {
     display: flex;
     justify-content: space-between;
-    padding: 0;
-    margin: 0;
-
 }
 
-.clients-svg {
+.clients-list-item {
     display: flex;
     width: 170px;
     height: 92px;
@@ -509,13 +508,20 @@ h3 {
     border-radius: 4px;
     justify-content: center;
     align-items: center;
-    margin-top: 60px;
-
-
+    fill: #AFB1B8;
 }
 
+.clients-list-item:hover,
+.clients-list-item:focus {
+    fill: var(--accent-color);
+    border: 1px solid var(--accent-color);
+}
 
-
+.clients-svg:hover,
+.clients-svg:focus {
+    fill: var(--accent-color);
+    color: var(--accent-color);
+}
 
 /* FOOTER */
 .page-footer {
