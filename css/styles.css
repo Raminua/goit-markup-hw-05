@@ -439,11 +439,6 @@ h3 {
 
 }
 
-.svg-member-icon {
-    fill: #AFB1B8;
-
-}
-
 .social-button-member {
     display: flex;
     width: 44px;
@@ -453,7 +448,7 @@ h3 {
     border: none;
     align-items: center;
     justify-content: center;
-    fill: var(--primary-color);
+    fill: #AFB1B8;
 }
 
 .social-button-member:hover,
