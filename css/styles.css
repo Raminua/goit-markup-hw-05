@@ -498,7 +498,7 @@ h3 {
 
 .clients-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .clients-list-item {
@@ -510,6 +510,10 @@ h3 {
     justify-content: center;
     align-items: center;
     fill: #AFB1B8;
+}
+
+.list-item:not(:last-child) {
+    margin-right: 30px;
 }
 
 .clients-list-item:hover,
