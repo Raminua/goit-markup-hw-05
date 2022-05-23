@@ -729,10 +729,13 @@ h3 {
 .portf-thumb {
     position: relative;
     display: flex;
+    overflow: hidden;
 }
 
-.portf-thumb .portf-link {
-    overflow: hidden;
+.portf-link {
+    margin-right: 30px;
+    margin-bottom: 30px;
+
 }
 
 .portf-thumb-hov {
@@ -745,6 +748,13 @@ h3 {
     left: 0;
     padding: 24px;
     background-color: rgba(33, 150, 243, 0.9);
+
+}
+
+.img-box {
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -832,10 +842,10 @@ h3 {
     padding-left: 0;
 }
 
-.photo-list li {
+/* .photo-list li {
     margin-right: 30px;
     margin-bottom: 30px;
-}
+} */
 
 .photo-list li:nth-child(3n) {
     margin-right: 0;
