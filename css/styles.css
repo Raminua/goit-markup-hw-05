@@ -574,9 +574,6 @@ h3 {
     transition: var(--transition);
 }
 
-.svg-member-icon {
-    transition: var(--transition);
-}
 
 .social-button-member:hover,
 .social-button-member:focus {
